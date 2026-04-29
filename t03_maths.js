@@ -11,13 +11,16 @@ let birthYear
 let oldAge
 oldAge = age + 10;
 birthYear = year - age;
+money = money/2
 
 /******************************
  Main code
  ******************************/
-console.log("hi "+ Username + " as of " + year + " you are " + age + " years old. " + age + " years old ")
-console.log(" you were born in " + birthYear)
-console.log("in 10 years you will be " + oldAge " years old ")
+console.log("hi "+ Username + "as of " + year + "you are " + age + "years old. " + age + "years old ")
+console.log("you were born in " + birthYear)
+console.log("in 10 years you will be " + oldAge "years old ")
+console.log("you have " + money + " dollars ")
+console.log("you spen half your money, now you have" + )
 /******************************
  Functions
  ******************************
