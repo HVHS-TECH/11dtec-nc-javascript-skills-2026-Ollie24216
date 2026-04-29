@@ -15,8 +15,9 @@ birthYear = year - age;
 /******************************
  Main code
  ******************************/
-console.log("hi "+ Username + " as of " + year + "you are" + age + " years old." + age + years old)
+console.log("hi "+ Username + " as of " + year + " you are " + age + " years old. " + age + " years old ")
 console.log(" you were born in " + birthYear)
+console.log("in 10 years you will be " + oldAge " years old ")
 /******************************
  Functions
  ******************************
