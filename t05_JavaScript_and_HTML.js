@@ -1,4 +1,4 @@
-/* Paste your code from task 3, Maths here */
+
 /******************************
  Name of task:
  ******************************/
@@ -19,12 +19,15 @@ halfMoney = money / 2;
  
  ******************************/
 OUTPUT.innerHTML += (" <p> hi "+ Username + " as of " + year + " you are " + age + " years old. " </p>"
-OUTPUT.innerHTML += "you were born in " + birthYear + "<br>"
-OUTPUT.innerHTML += "in 10 years you will be " + oldAge + " years old <br>"
-OUTPUT.innerHTML += " 
-OUTPUT.innerHTML += " 
-OUTPUT.innerHTML += " 
+OUTPUT.innerHTML += 
+OUTPUT.innerHTML +=
+OUTPUT.innerHTML +=
+OUTPUT.innerHTML += 
+OUTPUT.innerHTML += 
 
+/******************************
+ Functions
+ ******************************/
 
 
 
