@@ -14,7 +14,7 @@ birthYear = year - age;
 halfMoney = money / 2;
 
 
-let OUTPUT = document.getElementById("output");
+let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 /*****************************
 Main code
