@@ -2,7 +2,7 @@
 /******************************
  Name of task:
  ******************************/
-
+let OUTPUT = document.getElementById("output");
 //Variables
 let Username = "Ollie";
 let year = 2025;
