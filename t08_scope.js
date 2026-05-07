@@ -21,4 +21,3 @@ function functionTwo() {
 output.innerHTML += "end: "+myVar+"<br>";
 
 
-*/
