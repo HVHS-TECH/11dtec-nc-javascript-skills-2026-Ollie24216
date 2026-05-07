@@ -35,3 +35,9 @@ OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
     // Add a line to the html page
     OUTPUT.innerHTML += "<p>Less code matters</p>";
 }
+function displayWelcome(_name, _age){
+  OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
+  OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
+}
+displayWelcome("Ms Alice", 16);
+  displayWelcome("Mr Bob", 99);
