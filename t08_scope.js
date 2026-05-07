@@ -1,7 +1,7 @@
 const output = document.getElementById("output");
 
-/* Read the slides, make a prediction, then uncomment this code.
-the code will start at 0 and count up to 2 and then end at 0.
+
+
 
 var myVar = 0;
 output.innerHTML = "Start: "+myVar+"<br>";
