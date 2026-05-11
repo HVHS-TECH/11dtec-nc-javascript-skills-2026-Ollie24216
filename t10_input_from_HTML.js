@@ -31,14 +31,23 @@ OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
 /******************************
  Functions
  ******************************/
+function writeLine() {
+  OUTPUT.innerHTML += ("<hr>");
+}
 
- function writeLine() {
-    // Add a line to the html page
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
-}
-function displayWelcome(_name, _age){
-  OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-  OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-}
-displayWelcome("Ms Alice", 16);
-  displayWelcome("Mr Bob", 99);,; 
+function getFormInput() {
+  let name = document.getElementById("nameField").value;
+  let age = document.getElementById("ageField").value;
+  let color = document.getElementById("colorField").value;
+<form onsubmit="return false;">
+  <label for="formName">Name:</label>
+  <input type="text" id="nameField" name="formName">
+
+  <label for="formAge">Age:</label>
+  <input type="text" id="ageField" name="formAge">
+
+  <label for="formColor">Favourite colour:</label>
+  <input type="text" id="colorField" name="formColor">
+
+  <input type="submit" onClick=getFormInput()>
+</form>
