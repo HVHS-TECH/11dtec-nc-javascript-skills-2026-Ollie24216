@@ -41,4 +41,4 @@ function displayWelcome(_name, _age){
   OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
 }
 displayWelcome("Ms Alice", 16);
-  displayWelcome("Mr Bob", 99);,; jinu
+  displayWelcome("Mr Bob", 99);,; 
