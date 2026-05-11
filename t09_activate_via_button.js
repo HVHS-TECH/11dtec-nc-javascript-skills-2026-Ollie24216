@@ -31,4 +31,8 @@ OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
  Functions
  ******************************/
 
+ function writeLine()
+
+
+
   
