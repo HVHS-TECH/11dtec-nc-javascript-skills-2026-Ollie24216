@@ -31,14 +31,6 @@ OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
 /******************************
  Functions
  ******************************/
-function writeLine() {
-  OUTPUT.innerHTML += ("<hr>");
-}
-
-function getFormInput() {
-  let name = document.getElementById("nameField").value;
-  let age = document.getElementById("ageField").value;
-  let color = document.getElementById("colorField").value;
 <form onsubmit="return false;">
   <label for="formName">Name:</label>
   <input type="text" id="nameField" name="formName">
