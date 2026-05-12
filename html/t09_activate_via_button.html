@@ -1,41 +1,36 @@
-/*****************************/
-// Variables
-let Username = "Ollie";
-let year = 2025;
-let age = 15;
-let money = 2;
+<!DOCTYPE html>
+<html lang="en">
 
-let birthYear;
-let oldAge;
-let halfMoney;
+<head>
+  <title>T09-activate via button</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-oldAge = age + 10;
-birthYear = year - age;
-halfMoney = money / 2;
+  <!-- stylesheets *******************************************-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="../assets/dtec_favicon.png">
+</head>
 
-let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+<!--*************************************************************
+  BODY
+**************************************************************-->
 
-/*****************************
- Main code
-*****************************/
+<body>
+  <h1>T09-activate via button</h1>
+  <p>Open the console <code>(Ctrl-shift-i)</code> to see the messages.</p>
 
-<button onclick="startProgram()">Start</button>
+  <div id="spaceForJavaScriptOutput">
 
-<div id="spaceForJavaScriptOutput"></div>
+    The output of your script will go here.
 
-OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
-
-OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
-
-OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
-
-OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
-
-OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
-
-/******************************
- Functions
-******************************/
+  </div>
 
 
-   
+  <script src="../t09_activate_via_button.js"></script>
+
+</body>
+
+</html>
+<!--*************************************************************
+  END OF T09_ACTIVATE_VIA_BUTTON.HTML
+**************************************************************-->
