@@ -32,18 +32,4 @@ OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
  Functions
  ******************************/
 
- function writeLine() {
-    // Add a line to the html page
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
-}
-function displayWelcome(_name, _age){
-  OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
-  OUTPUT.innerHTML += "<p>You are "+_age+" years old</p>";
-
-
-
-  function getFormInput(){
-  const NAME_FIELD = document.getElementById("nameField");
-  let userName = NAME_FIELD.value;
-  OUTPUT.innerHTML = "<p>Your name is "+userName+"</p>";
-  }                                                                         
+                                                                          
