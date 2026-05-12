@@ -20,6 +20,12 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /*****************************
 Main code
 *****************************/
+
+<p>Open the console <code>(Ctrl-shift-i)</code></p>
+<button onclick="start()">Start</button>
+
+<div id="spaceForJavaScriptOutput"></div>
+
 writeLine();
 OUTPUT.innerHTML += ("<p>hi " + Username + " as of " + year + " you are " + age + " years old.</p>");
 OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
@@ -31,8 +37,13 @@ OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
  Functions
  ******************************/
 
- function writeLine()
-
+function start() {
+    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
+    answer = currentYear - userAge;
+    spaceForJavaScriptOutput.innerHTML
+}
+</script>
 
 
   
