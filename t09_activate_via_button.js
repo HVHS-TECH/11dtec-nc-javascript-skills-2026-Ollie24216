@@ -1,4 +1,14 @@
 
+
+
+    <title>JavaScript Example</title>
+
+<p>Open the console <code>(Ctrl-shift-i)</code></p>
+<button onclick="start()">Start</button>
+
+<div id="spaceForJavaScriptOutput"></div>
+
+<script>
 /*****************************/
 // Variables
 let Username = "Ollie";
@@ -14,38 +24,27 @@ oldAge = age + 10;
 birthYear = year - age;
 halfMoney = money / 2;
 
-
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 /*****************************
-Main code
+ Main code
 *****************************/
 
-<p>Open the console <code>(Ctrl-shift-i)</code></p>
-<button onclick="start()">Start</button>
-
-<div id="spaceForJavaScriptOutput"></div>
-
-writeLine();
-OUTPUT.innerHTML += ("<p>hi " + Username + " as of " + year + " you are " + age + " years old.</p>");
-OUTPUT.innerHTML += ("<p>you were born in " + birthYear + "</p>");
-OUTPUT.innerHTML += ("<p>in 10 years you will be " + oldAge + "</p>");
-OUTPUT.innerHTML += ("<p>you have " + halfMoney + " pounds</p>");
-OUTPUT.innerHTML += ("<p>you have " + money + " pounds</p>");
+OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
+OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
+OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
+OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
+OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
 
 /******************************
  Functions
- ******************************/
+******************************/
 
 function start() {
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer = currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
+    OUTPUT.innerHTML += "<p>The Start button was clicked!</p>";
 }
-</script>
 
-<button onClick="start()">START</button>
+
 
 
   
