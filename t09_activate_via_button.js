@@ -19,19 +19,15 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
  Main code
 *****************************/
 
-<button onclick="startProgram()">Start</button>
+function startProgram() {
+  OUTPUT.innerHTML = "";
 
-<div id="spaceForJavaScriptOutput"></div>
-
-OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
-
-OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
-
-OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
-
-OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
-
-OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
+  OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
+  OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
+  OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
+  OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
+  OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
+}
 
 /******************************
  Functions
