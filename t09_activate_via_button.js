@@ -33,7 +33,6 @@ OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
  Functions
 ******************************/
 
-function start() {
-    OUTPUT.innerHTML += "<p>The START button was clicked!</p>";   }
+
 
    
