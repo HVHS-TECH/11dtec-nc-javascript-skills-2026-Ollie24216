@@ -1,5 +1,11 @@
 /*****************************/
 // Variables
+
+ <p>Open the console <code>(Ctrl-shift-i)</code></p>
+<button onclick="start()">Start</button>
+
+<div id="spaceForJavaScriptOutput"></div>
+
 let Username = "Ollie";
 let year = 2025;
 let age = 15;
@@ -37,7 +43,4 @@ OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
 function start() {
     OUTPUT.innerHTML += "<p>Start button was clicked.</p>";
 } 
-    <p>Open the console <code>(Ctrl-shift-i)</code></p>
-<button onclick="start()">Start</button>
-
-<div id="spaceForJavaScriptOutput"></div>
+   
