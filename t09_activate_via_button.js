@@ -34,5 +34,5 @@ OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
  Functions
 ******************************/
 
-
+<button onClick="start()">START</button>
     
