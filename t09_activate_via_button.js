@@ -1,11 +1,6 @@
 /*****************************/
 // Variables
 
- <p>Open the console <code>(Ctrl-shift-i)</code></p>
-<button onclick="start()">Start</button>
-
-<div id="spaceForJavaScriptOutput"></div>
-
 let Username = "Ollie";
 let year = 2025;
 let age = 15;
