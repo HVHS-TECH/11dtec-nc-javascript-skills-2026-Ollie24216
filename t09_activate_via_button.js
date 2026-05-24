@@ -19,9 +19,6 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
  Main code
 *****************************/
 
-<button onclick="startProgram()">Start</button>
-
-<div id="spaceForJavaScriptOutput"></div>
 
 OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
 
@@ -38,4 +35,4 @@ OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
 ******************************/
 
 
-   
+    
