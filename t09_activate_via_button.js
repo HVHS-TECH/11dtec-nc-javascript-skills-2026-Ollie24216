@@ -34,5 +34,10 @@ OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
  Functions
 ******************************/
 
-<button onClick="start()">START</button>
-    
+function start() {
+    OUTPUT.innerHTML += "<p>Start button was clicked.</p>";
+} 
+    <p>Open the console <code>(Ctrl-shift-i)</code></p>
+<button onclick="start()">Start</button>
+
+<div id="spaceForJavaScriptOutput"></div>
