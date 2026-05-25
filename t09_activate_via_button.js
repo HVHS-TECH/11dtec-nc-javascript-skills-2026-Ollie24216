@@ -46,9 +46,8 @@ function start() {
     spaceForJavaScriptOutput.innerHTML
 }
 
- function Start() {
-    // Add a line to the html page
-    OUTPUT.innerHTML += "<p>Less code matters</p>";
+ function start() {
+   
 }
 function displayWelcome(_name, _age){
   OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
