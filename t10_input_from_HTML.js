@@ -56,4 +56,5 @@ function displayWelcome(_name, _age){
 displayWelcome("Ms Alice", 16);
   displayWelcome("Mr Bob", 99);
 function getFormInput() {
+       OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
 }
