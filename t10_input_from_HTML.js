@@ -56,5 +56,4 @@ function displayWelcome(_name, _age){
 displayWelcome("Ms Alice", 16);
   displayWelcome("Mr Bob", 99);
 function getFormInput() {
-    OUTPUT.innerHTML += "<p>Welcome to the page "+_name+"</p>";
 }
