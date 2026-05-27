@@ -31,9 +31,7 @@ function getFormInput() {
   const nameField = document.getElementById("nameField");
   username= NAME_FIELD.value;
   
-
-  function welcomeUser() {
-    OUTPUT.innerHTML += "<h1>Welcome to the page " + username + "</h1>";
+  
 
 function start() {
 
