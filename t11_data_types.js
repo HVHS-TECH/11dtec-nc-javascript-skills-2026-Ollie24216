@@ -29,6 +29,7 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 ******************************/
 
 
+
 function start() {
 
     spaceForJavaScriptOutput.innerHTML
