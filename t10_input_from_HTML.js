@@ -1,6 +1,6 @@
 /*****************************/
 // Variables
-
+Console.
 let Username = "Ollie";
 let year = 2025;
 let age = 15;
@@ -14,7 +14,6 @@ oldAge = age + 10;
 birthYear = year - age;
 halfMoney = money / 2;
 
-let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 /*****************************
  Main code
@@ -26,7 +25,15 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /******************************
  Functions
 ******************************/
+let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+function getFormInput() {
+  
+  const nameField = document.getElementById("nameField");
+  username= NAME_FIELD.value;
+  
 
+  function welcomeUser() {
+    OUTPUT.innerHTML += "<h1>Welcome to the page " + username + "</h1>";
 
 function start() {
 
