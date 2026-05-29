@@ -20,6 +20,10 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 var num1 = “50”;
 typeof(num1);
 
+let name = "Ms Alice";
+let age = 16;
+let isAwake = true;
+
 
 /*****************************
  Main code
