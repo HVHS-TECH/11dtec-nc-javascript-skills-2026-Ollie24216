@@ -23,7 +23,7 @@ typeof(num1);
 let name = "Ms Alice";
 let age = 16;
 let isAwake = true;
-
+let userAge = AGE_FIELD.value;
 
 /*****************************
  Main code
