@@ -17,6 +17,10 @@ halfMoney = money / 2;
 
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+var num1 = “50”;
+typeof(num1);
+
+
 /*****************************
  Main code
 *****************************/
