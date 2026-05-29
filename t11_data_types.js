@@ -23,7 +23,9 @@ typeof(num1);
 let name = "Ms Alice";
 let age = 16;
 let isAwake = true;
-let userAge = AGE_FIELD.value;
+let userAgeString = AGE_FIELD.value;
+let userAgeNumber = Number(userAgeString);
+
 
 /*****************************
  Main code
