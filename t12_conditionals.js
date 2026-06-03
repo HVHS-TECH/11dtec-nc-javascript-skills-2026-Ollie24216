@@ -2,6 +2,7 @@
 let Username = "Ollie";
 let year = 2025;
 let age = 15;
+let pocketmoney = 3;
 let money = 2;
 
 let birthYear = year - age;
@@ -28,7 +29,7 @@ function getFormInput() {
   let age = document.getElementById("ageField").value;
 
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
-  OUTPUT.innerHTML += "<p>You have " + age + " money </p>";
+  OUTPUT.innerHTML += "<p>You have " + pocketmoney + " money </p>";
 }
 
 //if ("money" < 4) {
