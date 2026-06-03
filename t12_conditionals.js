@@ -26,7 +26,7 @@ function displayWelcome(_name, _money) {
 function getFormInput() {
 
   let name = document.getElementById("nameField").value;
-  let pocketmoney = document.getElementById("pocketmoneyField").value;
+  let pocketmoney = Number(document.getElementById("pocketmoneyField").value);
 
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
   OUTPUT.innerHTML += "<p>You have " + pocketmoney + " money </p>";
