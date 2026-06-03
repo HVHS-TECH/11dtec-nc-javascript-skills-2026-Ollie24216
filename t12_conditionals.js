@@ -29,7 +29,7 @@ function getFormInput() {
   let pocketmoney = Number(document.getElementById("pocketmoneyField").value);
 
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
-  OUTPUT.innerHTML += "<p>You have " + pocketmoney + " money </p>";
+  OUTPUT.innerHTML += "<p>You have " + enteredpocketmoney + " money </p>";
   //OUTPUT.innerHTML += "<p>You have money </p>";
 }
 
