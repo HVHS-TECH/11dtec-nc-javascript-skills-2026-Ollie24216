@@ -30,13 +30,12 @@ function getFormInput() {
 
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
   OUTPUT.innerHTML += "<p>You have " + pocketmoney + " money </p>";
+  //OUTPUT.innerHTML += "<p>You have money </p>";
 }
 
 //if ("money" < 4) {
 //  OUTPUT.innerHTML += "<p>You can afford a chocolate bar! </p>";
 //}
-
-
 if (pocketmoney >= 4) {
-  console.log("Can afford chocolate bar")
+OUTPUT.innerHTML += "<p>You have money </p>";
 }
