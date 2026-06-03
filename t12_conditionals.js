@@ -1,4 +1,3 @@
-/* Paste your code from the last task */
 // Variables
 let Username = "Ollie";
 let year = 2025;
@@ -13,24 +12,20 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 function start() {
 
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
+  OUTPUT.innerHTML = "";
 
-    answer = currentYear - userAge;
+  OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
 
-    spaceForJavaScriptOutput.innerHTML
-}
+  OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
 
- function start() {
-   OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
+  OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
 
-OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
+  OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
 
-OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
+  OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
 
-OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
-
-OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
+  displayWelcome("Ollie", 15);
+  displayWelcome("Ollie", 15);
 }
 
 // Function with parameters
@@ -48,9 +43,3 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
   OUTPUT.innerHTML += "<p>You are " + age + " years old</p>";
 }
-
-// Run functions
-start();
-
-displayWelcome("Ollie", 15);
-displayWelcome("Ollie", 15);
