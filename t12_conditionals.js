@@ -1,3 +1,4 @@
+/* Paste your code from the last task */
 // Variables
 let Username = "Ollie";
 let year = 2025;
@@ -10,9 +11,8 @@ let halfMoney = money / 2;
 
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+// Main function
 function start() {
-
-  OUTPUT.innerHTML = "";
 
   OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
 
@@ -23,9 +23,6 @@ function start() {
   OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
 
   OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
-
-  displayWelcome("Ollie", 15);
-  displayWelcome("Ollie", 15);
 }
 
 // Function with parameters
@@ -44,11 +41,8 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>You are " + age + " years old</p>";
 }
 
-function addPocketMoney() {
+// Run functions
+start();
 
-  let extraMoney = Number(document.getElementById("moneyField").value);
-
-  money = money + extraMoney;
-
-  OUTPUT.innerHTML += "<p>You received " + extraMoney + " pounds.</p>";
-  OUTPUT.innerHTML += "<p>You now have " + money + " pounds.</p>";
+displayWelcome("Ms Alice", 16);
+displayWelcome("Mr Bob", 99);
