@@ -32,7 +32,7 @@ function getFormInput() {
 }
 
 if ("money" < 4) {
-  console.log("Can not afford chocolate bar")
+  OUTPUT.innerHTML ("Can not afford chocolate bar")
 }
 
 
