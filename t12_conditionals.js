@@ -40,4 +40,3 @@ function getFormInput() {
 if (pocketmoney >= 4) {
 OUTPUT.innerHTML += "<p>You have money </p>";
 }
-}
