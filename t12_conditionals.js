@@ -43,3 +43,9 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
   OUTPUT.innerHTML += "<p>You are " + age + " years old</p>";
 }
+
+function pocketMoney() {
+
+  OUTPUT.innerHTML += "<p>You have " + money + " pounds of pocket money.</p>";
+
+}
