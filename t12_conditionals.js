@@ -44,8 +44,11 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>You are " + age + " years old</p>";
 }
 
-function pocketMoney() {
+function addPocketMoney() {
 
-  OUTPUT.innerHTML += "<p>You have " + money + " pounds of pocket money.</p>";
+  let extraMoney = Number(document.getElementById("moneyField").value);
 
-}
+  money = money + extraMoney;
+
+  OUTPUT.innerHTML += "<p>You received " + extraMoney + " pounds.</p>";
+  OUTPUT.innerHTML += "<p>You now have " + money + " pounds.</p>";
