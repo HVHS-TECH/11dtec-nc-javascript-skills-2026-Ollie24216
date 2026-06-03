@@ -31,7 +31,7 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>You have " + age + " money </p>";
 }
 
-if (ageField < 70) {
+if ("age" < 70) {
   console.log("Can not afford chocolate bar")
 }
 
