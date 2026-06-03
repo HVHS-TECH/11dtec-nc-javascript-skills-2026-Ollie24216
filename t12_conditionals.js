@@ -28,7 +28,7 @@ function getFormInput() {
   let age = document.getElementById("ageField").value;
 
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
-  OUTPUT.innerHTML += "<p>You have " + money + " money </p>";
+  OUTPUT.innerHTML += "<p>You have " + age + " money </p>";
 }
 
 //if ("money" < 4) {
