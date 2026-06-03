@@ -11,18 +11,26 @@ let halfMoney = money / 2;
 
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-// Main function
 function start() {
 
-  OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
+    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
 
-  OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
+    answer = currentYear - userAge;
 
-  OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
+    spaceForJavaScriptOutput.innerHTML
+}
 
-  OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
+ function start() {
+   OUTPUT.innerHTML += "<p>Hi " + Username + ", as of " + year + " you are " + age + " years old.</p>";
 
-  OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
+OUTPUT.innerHTML += "<p>You were born in " + birthYear + ".</p>";
+
+OUTPUT.innerHTML += "<p>In 10 years you will be " + oldAge + ".</p>";
+
+OUTPUT.innerHTML += "<p>You have " + money + " pounds.</p>";
+
+OUTPUT.innerHTML += "<p>Half your money is " + halfMoney + " pounds.</p>";
 }
 
 // Function with parameters
@@ -44,5 +52,5 @@ function getFormInput() {
 // Run functions
 start();
 
-displayWelcome("Ms Alice", 16);
-displayWelcome("Mr Bob", 99);
+displayWelcome("Ollie", 15);
+displayWelcome("Ollie", 15);
