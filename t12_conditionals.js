@@ -31,9 +31,9 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>You have " + money + " money </p>";
 }
 
-if ("money" < 4) {
-  OUTPUT.innerHTML += "<p>You can afford a chocolate bar! </p>";
-}
+//if ("money" < 4) {
+//  OUTPUT.innerHTML += "<p>You can afford a chocolate bar! </p>";
+//}
 
 
 if (money >= 4) {
