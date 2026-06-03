@@ -36,6 +36,8 @@ function getFormInput() {
 //if ("money" < 4) {
 //  OUTPUT.innerHTML += "<p>You can afford a chocolate bar! </p>";
 //}
+function getFormInput() {
 if (pocketmoney >= 4) {
 OUTPUT.innerHTML += "<p>You have money </p>";
+}
 }
