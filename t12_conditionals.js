@@ -16,9 +16,9 @@ function start() {
 }
 
 // Function with parameters
-function displayWelcome(_name, _age) {
+function displayWelcome(_name, _money) {
   OUTPUT.innerHTML += "<p>Welcome to the page " + _name + "</p>";
-  OUTPUT.innerHTML += "<p>You are " + _age + " years old</p>";
+  OUTPUT.innerHTML += "<p>You have $" + _money + " in pocket money</p>";
 }
 
 // Form input function
@@ -28,7 +28,7 @@ function getFormInput() {
   let age = document.getElementById("ageField").value;
 
   OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
-  OUTPUT.innerHTML += "<p>You are " + age + " years old</p>";
+  OUTPUT.innerHTML += "<p>You have " + age + " money </p>";
 }
 
 
