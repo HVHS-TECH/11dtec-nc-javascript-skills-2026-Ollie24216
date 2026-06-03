@@ -31,11 +31,11 @@ function getFormInput() {
   OUTPUT.innerHTML += "<p>You have " + money + " money </p>";
 }
 
-if ("age" < 70) {
+if ("money" < 4) {
   console.log("Can not afford chocolate bar")
 }
 
 
-if (age < 70) {
+if (money >= 4) {
   console.log("Can afford chocolate bar")
 }
