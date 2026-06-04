@@ -10,7 +10,7 @@ let halfMoney = money / 2;
 
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
-
+//funtions 
 function start() {
   
 }
@@ -21,6 +21,20 @@ function displayWelcome(_name, _money) {
   OUTPUT.innerHTML += "<p>You have $" + _money + " in pocket money</p>";
 }
 
+function calculatePay(_hours){
+
+    // The pay calculation is complex
+    // so we hide it in a function
+
+    let pay = _hours * 18.80; // Training wage
+    pay = pay - (pay * 0.105); // tax deduction
+    pay = pay - (pay * 0.04); // kiwisaver
+    pay = pay + 10; // bonus
+
+    return pay;
+}
+
+let mondayPay = calculatePay(8);
 
 function getFormInput() {
   
