@@ -30,8 +30,8 @@ function calculatePay(_hours) {
 
 let mondayPay = calculatePay(8);
 
-function calculateChange(_money, _price) {
-    let change = _money - _price;
+function calculateChange(money, price) {
+    let change = money - price;
     return change;
 }
 
