@@ -7,7 +7,7 @@ let money = 12;
 //let oldAge = age + 10;
 //let halfMoney = money / 2;
 let price = 4;
-
+let change = enteredPocketmoney - price;
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 // functions
