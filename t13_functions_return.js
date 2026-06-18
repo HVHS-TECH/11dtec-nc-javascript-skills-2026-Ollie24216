@@ -42,6 +42,7 @@ function getFormInput() {
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
     
+    OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
     // Assuming the chocolate bar costs $4
     let chocPrice = 4;
 
@@ -51,4 +52,5 @@ function getFormInput() {
         let myChange = calculateChange(enteredPocketmoney, chocPrice);
         OUTPUT.innerHTML += "<p>You will get $" + myChange.toFixed(2) + " change</p>";
     } else {
-        OUTPUT.innerHTML += "<p>You can't afford the chocolate bar.</p>";           }
+        OUTPUT.innerHTML += "<p>You can't afford the chocolate bar.</p>";  
+    }
