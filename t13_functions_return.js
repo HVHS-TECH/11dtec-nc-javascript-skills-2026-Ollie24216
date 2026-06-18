@@ -1,11 +1,11 @@
 let Username = "Ollie";
-let year = 2025;
-let age = 15;
+//let year = 2025;
+//let age = 15;
 let pocketmoney = 3;
 let money = 2;
-let birthYear = year - age;
-let oldAge = age + 10;
-let halfMoney = money / 2;
+//let birthYear = year - age;
+//let oldAge = age + 10;
+//let halfMoney = money / 2;
 let price = 4;
 
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
@@ -54,5 +54,5 @@ function getFormInput() {
         let myChange = calculateChange(enteredPocketmoney, chocPrice);
         OUTPUT.innerHTML += "<p>You will get $" + myChange.toFixed(2) + " change</p>";
     } else {
-        OUTPUT.innerHTML += "<p>You can't afford the chocolate bar.</p>";  
+        OUTPUT.innerHTML += "<p>You can't afford the chocolate bar.</p>";   
     }
