@@ -13,10 +13,10 @@ let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 // functions
 function start() { }
 
-function displayWelcome(_name, _money) {
-    OUTPUT.innerHTML += "<p>Welcome to the page " + _name + "</p>";
-    OUTPUT.innerHTML += "<p>You have $" + _money + " in pocket money</p>";
-}
+//function displayWelcome(_name, _money) {
+//    OUTPUT.innerHTML += "<p>Welcome to the page " + _name + "</p>";
+//    OUTPUT.innerHTML += "<p>You have $" + _money + " in pocket money</p>";
+//}
 
 /*
 function calculatePay(_hours) {
@@ -29,7 +29,7 @@ function calculatePay(_hours) {
     return pay;
 }
 */
-let mondayPay = calculatePay(8);
+//let mondayPay = calculatePay(8);
 
 function calculateChange(money, price) {
     let change = money - price;
