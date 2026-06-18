@@ -18,6 +18,7 @@ function displayWelcome(_name, _money) {
     OUTPUT.innerHTML += "<p>You have $" + _money + " in pocket money</p>";
 }
 
+/*
 function calculatePay(_hours) {
     // The pay calculation is complex
     // so we hide it in a function
@@ -27,7 +28,7 @@ function calculatePay(_hours) {
     pay = pay + 10; // bonus
     return pay;
 }
-
+*/
 let mondayPay = calculatePay(8);
 
 function calculateChange(money, price) {
@@ -42,6 +43,7 @@ function getFormInput() {
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
+
     // Assuming the chocolate bar costs $4
     let chocPrice = 4;
 
