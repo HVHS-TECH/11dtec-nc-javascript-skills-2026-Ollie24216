@@ -41,7 +41,6 @@ function getFormInput() {
 }
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
-    
     OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
     // Assuming the chocolate bar costs $4
     let chocPrice = 4;
