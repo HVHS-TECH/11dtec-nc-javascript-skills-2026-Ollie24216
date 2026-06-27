@@ -31,6 +31,7 @@ function calculatePay(_hours) {
 //let mondayPay = calculatePay(8);
 
 function calculateChange(enteredPocketmoney, price) {
+    let chocPrice = 4;
     let change = enteredPocketmoney - price;
     return change;
 }
@@ -39,7 +40,7 @@ function getFormInput() {
     let name = document.getElementById("nameField").value;
     let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);
 
-    let chocPrice = 4;
+   
 
     let change = calculateChange(enteredPocketmoney, chocPrice);
 
