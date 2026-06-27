@@ -9,12 +9,12 @@ function getFormInput() {
 
    let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"]
 
-    let change = calculateChange(enteredPocketmoney, price);
+
 
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredChocrating + " rating </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change after buying a chocolate bar </p>";
-    OUTPUT.innerHTML += "<p>ratingArray</p>";         
+    OUTPUT.innerHTML += "<p>+ratingArray[2]</p>";         
 
     if (enteredChocrating >= price) {
         OUTPUT.innerHTML += "<p>You can buy a chocolate bar!</p>";
