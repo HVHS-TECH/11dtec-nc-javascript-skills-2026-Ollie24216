@@ -36,9 +36,9 @@ function calculateChange(enteredPocketmoney, price) {
     return change;
 }
 
-function getFormInput() {
+function getFormInput( {
     let name = document.getElementById("nameField").value;
-    let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);
+    let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);)
     //let change = calculateChange(enteredpocketmoney, chocPrice);
 }
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
