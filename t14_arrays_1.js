@@ -1,20 +1,7 @@
-let Username = "Ollie";
-
-let pocketmoney = 3;
-let money = 12;
-
-let price = 4;
-let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 function start() { }
 
 
-
-function calculateChange(enteredPocketmoney, price) {
-    let chocPrice = 4;
-    let change = enteredPocketmoney - price;
-    return change;
-}
 
 function getFormInput() {
     let name = document.getElementById("nameField").value;
