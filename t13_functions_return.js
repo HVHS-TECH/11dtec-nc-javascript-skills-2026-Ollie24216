@@ -38,20 +38,19 @@ function calculateChange(enteredPocketmoney, price) {
 function getFormInput() {
     let name = document.getElementById("nameField").value;
     let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);
-    let change = calculateChange(enteredPocketmoney, chocPrice);
+
     let chocPrice = 4;
-    
+
+    let change = calculateChange(enteredPocketmoney, chocPrice);
+
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
 
-   
-
     if (enteredPocketmoney >= chocPrice) {
         OUTPUT.innerHTML += "<p>You can buy a chocolate bar!</p>";
-        
-        let myChange = calculateChange(enteredPocketmoney, chocPrice);
-        OUTPUT.innerHTML += "<p>You will get $" + myChange.toFixed(2) + " change</p>";
+        OUTPUT.innerHTML += "<p>You will get $" + change.toFixed(2) + " change</p>";
     } else {
-        OUTPUT.innerHTML += "<p>You can't afford the chocolate bar.</p>";   
-    }}
+        OUTPUT.innerHTML += "<p>You can't afford the chocolate bar.</p>";
+    }
+}
