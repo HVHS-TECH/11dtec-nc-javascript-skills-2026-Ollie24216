@@ -1,23 +1,46 @@
 let Username = "Ollie";
+//let year = 2025;
+//let age = 15;
 let pocketmoney = 3;
 let money = 12;
-
+//let birthYear = year - age;
+//let oldAge = age + 10;
+//let halfMoney = money / 2;
 let price = 4;
-let change = 1;
+let change = enteredPocketmoney - price;
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
+// functions
+function start() { }
+
+//function displayWelcome(_name, _money) {
+//    OUTPUT.innerHTML += "<p>Welcome to the page " + _name + "</p>";
+//    OUTPUT.innerHTML += "<p>You have $" + _money + " in pocket money</p>";
+//}
+
+/*
+function calculatePay(_hours) {
+    // The pay calculation is complex
+    // so we hide it in a function
+    let pay = _hours * 18.80; // Training wage
+    pay = pay - (pay * 0.105); // tax deduction
+    pay = pay - (pay * 0.04); // kiwisaver
+    pay = pay + 10; // bonus
+    return pay;
+}
+*/
+//let mondayPay = calculatePay(8);
 
 function calculateChange(enteredPocketmoney, price) {
     let change = enteredPocketmoney - price;
     return change;
 }
 
-function getFormInput( {
+function getFormInput() {
     let name = document.getElementById("nameField").value;
-    let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);)
-    let change = Number(document.getElementById("change").value);)
-    
-
+    let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);
+    let change = calculateChange(enteredpocketmoney, chocPrice);
+}
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
