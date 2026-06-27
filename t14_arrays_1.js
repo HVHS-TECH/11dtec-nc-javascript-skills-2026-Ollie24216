@@ -9,11 +9,8 @@ function getFormInput() {
 
    let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"]
 
-
-
-   
     
-    OUTPUT.innerHTML += "<p>+ratingArray[enteredChocrating]</p>";         
+    OUTPUT.innerHTML += "<p>+ratingArray[2]</p>";         
 
-    }
+    
 }
