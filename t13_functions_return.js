@@ -16,8 +16,8 @@ function getFormInput( {
     let name = document.getElementById("nameField").value;
     let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);)
     let change = Number(document.getElementById("change").value);)
-    //let change = calculateChange(enteredpocketmoney, chocPrice);
-}
+    
+
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
