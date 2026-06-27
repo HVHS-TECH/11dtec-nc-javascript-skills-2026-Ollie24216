@@ -5,14 +5,14 @@ function start() { }
 
 function getFormInput() {
     let name = document.getElementById("nameField").value;
-    let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);
+    let enteredChocrating = Number(document.getElementById("chocratingField").value);
 
    
 
     let change = calculateChange(enteredPocketmoney, price);
 
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
-    OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
+    OUTPUT.innerHTML += "<p>You have $" + enteredChocrating + " rating </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change after buying a chocolate bar </p>";
 
     if (enteredPocketmoney >= price) {
