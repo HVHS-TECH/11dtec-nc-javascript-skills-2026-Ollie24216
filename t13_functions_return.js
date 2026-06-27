@@ -22,13 +22,13 @@ function getFormInput() {
 
    
 
-    let change = calculateChange(enteredPocketmoney, chocPrice);
+    let change = calculateChange(enteredPocketmoney, price);
 
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
 
-    if (enteredPocketmoney >= chocPrice) {
+    if (enteredPocketmoney >= price) {
         OUTPUT.innerHTML += "<p>You can buy a chocolate bar!</p>";
         OUTPUT.innerHTML += "<p>You will get $" + change.toFixed(2) + " change</p>";
     } else {
