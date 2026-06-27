@@ -7,7 +7,7 @@ function getFormInput() {
     let name = document.getElementById("nameField").value;
     let enteredChocrating = Number(document.getElementById("chocratingField").value);
 
-   
+   let rating = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"]
 
     let change = calculateChange(enteredPocketmoney, price);
 
