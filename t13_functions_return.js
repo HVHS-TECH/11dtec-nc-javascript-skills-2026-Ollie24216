@@ -26,7 +26,7 @@ function getFormInput() {
 
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
-    OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
+    OUTPUT.innerHTML += "<p>You have $" + change + " in change after buying a chocolate bar </p>";
 
     if (enteredPocketmoney >= price) {
         OUTPUT.innerHTML += "<p>You can buy a chocolate bar!</p>";
