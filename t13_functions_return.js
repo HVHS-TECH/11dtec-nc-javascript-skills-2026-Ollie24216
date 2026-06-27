@@ -40,13 +40,13 @@ function getFormInput() {
     let name = document.getElementById("nameField").value;
     let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);
     let change = calculateChange(enteredpocketmoney, chocPrice);
-}
+    let chocPrice = 4;
+    
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
     OUTPUT.innerHTML += "<p>You have $" + enteredPocketmoney + " money </p>";
     OUTPUT.innerHTML += "<p>You have $" + change + " in change </p>";
 
-    // Assuming the chocolate bar costs $4
-    let chocPrice = 4;
+   
 
     if (enteredPocketmoney >= chocPrice) {
         OUTPUT.innerHTML += "<p>You can buy a chocolate bar!</p>";
