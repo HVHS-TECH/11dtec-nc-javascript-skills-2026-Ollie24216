@@ -55,4 +55,4 @@ function getFormInput() {
         OUTPUT.innerHTML += "<p>You will get $" + myChange.toFixed(2) + " change</p>";
     } else {
         OUTPUT.innerHTML += "<p>You can't afford the chocolate bar.</p>";   
-    }
+    }}
