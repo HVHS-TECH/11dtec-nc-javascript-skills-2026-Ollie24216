@@ -7,7 +7,6 @@ let money = 12;
 //let oldAge = age + 10;
 //let halfMoney = money / 2;
 let price = 4;
-let change = enteredPocketmoney - price;
 let OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 // functions
@@ -39,7 +38,7 @@ function calculateChange(enteredPocketmoney, price) {
 function getFormInput() {
     let name = document.getElementById("nameField").value;
     let enteredPocketmoney = Number(document.getElementById("pocketmoneyField").value);
-    let change = calculateChange(enteredpocketmoney, chocPrice);
+    let change = calculateChange(enteredPocketmoney, chocPrice);
     let chocPrice = 4;
     
     OUTPUT.innerHTML += "<p>Hello " + name + "</p>";
