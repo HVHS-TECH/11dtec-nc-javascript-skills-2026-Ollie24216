@@ -19,7 +19,7 @@ function getFormInput() {
 
 
     
-    OUTPUT.innerHTML += "<p>" + ItemArray[i] + "</p>";         
+    OUTPUT.innerHTML += "<p>" + ItemArray[i] + " you have added this item to the list" + "</p>";         
 
     
 }
