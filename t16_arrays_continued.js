@@ -5,7 +5,7 @@ function start() { }
 
 function getFormInput() {
 
-    let enteredChocrating = Number(document.getElementById("chocratingField").value);
+    let Item = Number(document.getElementById("ShoppingItem").value);
 
    let ratingArray = ["MILK", "Chocolate", "sausages", "CARROTS"]
 
