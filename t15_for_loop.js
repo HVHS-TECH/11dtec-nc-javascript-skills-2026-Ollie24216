@@ -9,10 +9,9 @@ function getFormInput() {
         
 
 
-    for (let i = BottleNumber; i > 0; i = i--) {
-    console.log("Current count: i)
-        OUTPUT.innerHTML += "<p>" + "There are" + "BottleNumber" + "bottles of beer on the wall"  "</p>";         
+    for (let i = BottleNumber; i > 0; i--) {
+    console.log("Current count: + i")
+        OUTPUT.innerHTML += "<p>" + "There are" + BottleNumber + "bottles of beer on the wall" + "</p>";         
 ;
-}
-    
 
+}
