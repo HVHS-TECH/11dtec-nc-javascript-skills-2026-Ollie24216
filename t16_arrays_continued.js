@@ -1,13 +1,13 @@
 
 function start() { }
 
-
+let ItemArray = ["MILK", "Chocolate", "sausages", "CARROTS"]
 
 function getFormInput() {
 
     let Item = Number(document.getElementById("ShoppingItem").value);
 
-   let ItemArray = ["MILK", "Chocolate", "sausages", "CARROTS"]
+   
 
 
 
