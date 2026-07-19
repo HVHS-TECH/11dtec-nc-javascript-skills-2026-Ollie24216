@@ -10,7 +10,7 @@ function getFormInput() {
 
 
     for (let i = BottleNumber; i > 0; i = i--) {
-    console.log("Current count: " + i);
+    console.log("Current count: " - i);
 }
     
 }
