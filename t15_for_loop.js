@@ -9,7 +9,7 @@ function getFormInput() {
     OUTPUT.innerHTML += "<p>" + ratingArray[enteredChocrating] + "</p>";         
 
 
-    for (let i = 0; i <= 30; i = i + 3) {
+    for (let i = BottleNumber; i > 0; i = i--) {
     console.log("Current count: " + i);
 }
     
