@@ -13,7 +13,7 @@ function getFormInput() {
     for (let i = BottleNumber; i > 0; i--) {
     console.log("Current count: " + i)
     let BottleWord = (i === 1) ? "bottle" : "bottles";
-        OUTPUT.innerHTML += "<p>" + "There are " + i + " bottles of beer on the wall" + "</p>";         
+        OUTPUT.innerHTML += "<p>" + "There are " + i + " " + bottleWord + " of beer on the wall" + "</p>";         
 ;
 
     }
