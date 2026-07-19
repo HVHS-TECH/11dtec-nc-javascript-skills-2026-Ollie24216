@@ -5,16 +5,12 @@ function start() { }
 
 function getFormInput() {
 
-    let BottleNumber = Number(document.getElementById("BottleNumberField").value);   
-    let OUTPUT = document.getElementById("OUTPUT")
-    OUTPUT.innerHTML = ""; 
+    let enteredChocrating = Number(document.getElementById("chocratingField").value);
 
+   let ratingArray = ["You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER!!!!"]
 
-    for (let i = BottleNumber; i > 0; i--) {
-    console.log("Current count: " + i)
-    let BottleWord = (i === 1) ? "bottle" : "bottles";
-        OUTPUT.innerHTML += "<p>" + "There are " + i + " " + BottleWord + " of beer on the wall" + "</p>";         
-;
+    
+    OUTPUT.innerHTML += "<p>" + ratingArray[enteredChocrating] + "</p>";         
 
-    }
+    
 }
