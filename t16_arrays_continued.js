@@ -6,13 +6,21 @@ let ItemArray = ["MILK", "Chocolate", "sausages", "CARROTS"]
 function getFormInput() {
 
     let Item = Number(document.getElementById("ShoppingItem").value);
+    let OUTPUT = document.getElementById("OUTPUT");
+
+    ItemArray.push(Item);
+
+    OUTPUT.innerHTML = "";
+
+    for (let i = 0; i < ItemArray.length; i++) {
 
    
 
 
 
     
-    OUTPUT.innerHTML += "<p>" + ItemArray[all items] + "</p>";         
+    OUTPUT.innerHTML += "<p>" + ItemArray[i] + "</p>";         
 
     
+}
 }
